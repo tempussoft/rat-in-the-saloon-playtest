@@ -20,7 +20,7 @@ Latest build: grab the zip for your system from **[Releases](../../releases/late
 **Mac:** Uygulamayı *Uygulamalar* klasörüne taşı ve aç. Apple uyarısında *Bitti* de, sonra *Sistem Ayarları → Gizlilik ve Güvenlik → Yine de Aç*. "Hasarlı" derse Terminal'de:
 
 ```
-xattr -cr /Applications/RatInTheSaloon.app
+xattr -dr com.apple.quarantine /Applications/RatInTheSaloon.app
 ```
 
 Intel işlemcili Mac desteklenmiyor. Oyun internet ve mikrofon ister. 4–8 kişi, sesli sohbetle oynanır; biri masa kurar, diğerleri 6 karakterli oda koduyla katılır.
